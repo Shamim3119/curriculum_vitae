@@ -3,7 +3,7 @@
 // Iamge section 
 
     $pdf->ClippingRoundedRect($x,$y - 2,$y + 5,30,15,false);
-    $pdf->Image('shamim.jpg',$x,$y - 2,$y + 5);
+    $pdf->Image('images/shamim.jpg',$x,$y - 2,$y + 5);
     $pdf->UnsetClipping();
     
 // End Image Section

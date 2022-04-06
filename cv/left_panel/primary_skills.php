@@ -13,7 +13,7 @@
     $pdf->Line($pdf->GetX() + 15, $pdf->GetY(), 75, $pdf->GetY()); 
     
     $pdf->ClippingRoundedRect($x + 36.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('star.jpg',$x + 36,$pdf->GetY() - 16.6,20);
+    $pdf->Image('images/star.jpg',$x + 36,$pdf->GetY() - 16.6,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 14,$pdf->GetY() + 5);
     $pdf->SetFont('Arial','B',8);
@@ -23,7 +23,7 @@
     $pdf->Ln(.1);
 
     $pdf->ClippingRoundedRect($x + 36.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('star.jpg',$x + 36,$pdf->GetY() - 16.6,20);
+    $pdf->Image('images/star.jpg',$x + 36,$pdf->GetY() - 16.6,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 14,$pdf->GetY() + 5);
     $pdf->Cell(40,1,"Laravel, JavaScript",0, 'L'); 
@@ -31,7 +31,7 @@
     $pdf->Ln(.1);
 
     $pdf->ClippingRoundedRect($x + 36.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('star.jpg',$x + 36,$pdf->GetY() - 16.6,20);
+    $pdf->Image('images/star.jpg',$x + 36,$pdf->GetY() - 16.6,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 14,$pdf->GetY() + 5);
     $pdf->Cell(40,1,"MySQL, SQL Server",0, 'L'); 
@@ -39,7 +39,7 @@
     $pdf->Ln(.1);
 
     $pdf->ClippingRoundedRect($x + 36.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('star.jpg',$x + 36,$pdf->GetY() - 11.9,20);
+    $pdf->Image('images/star.jpg',$x + 36,$pdf->GetY() - 11.9,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 14,$pdf->GetY() + 5);
     $pdf->Cell(40,1,"Vue.js, jQuery, Ajax",0, 'L'); 
@@ -47,7 +47,7 @@
     $pdf->Ln(.1);
 
     $pdf->ClippingRoundedRect($x + 36.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('star.jpg',$x + 36,$pdf->GetY() - 11.9,20);
+    $pdf->Image('images/star.jpg',$x + 36,$pdf->GetY() - 11.9,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 14,$pdf->GetY() + 5);
     $pdf->Cell(40,1,"Android Studio Java",0, 'L'); 
@@ -55,7 +55,7 @@
     $pdf->Ln(.1);
 
     $pdf->ClippingRoundedRect($x + 36.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('star.jpg',$x + 36,$pdf->GetY() - 11.9,20);
+    $pdf->Image('images/star.jpg',$x + 36,$pdf->GetY() - 11.9,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 14,$pdf->GetY() + 5);
     $pdf->Cell(40,1,"VB.Net,Crystal Reports",0, 'L'); 
@@ -64,7 +64,7 @@
     $pdf->Ln(.1);
 
     $pdf->ClippingRoundedRect($x + 36.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('star.jpg',$x + 36,$pdf->GetY() - 11.9,20);
+    $pdf->Image('images/star.jpg',$x + 36,$pdf->GetY() - 11.9,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 14,$pdf->GetY() + 5);
     $pdf->Cell(40,1,"Html,CSS,Xml,Dhtml",0, 'L'); 
@@ -72,7 +72,7 @@
     $pdf->Ln(.1);
 
     $pdf->ClippingRoundedRect($x + 36.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('star.jpg',$x + 36,$pdf->GetY() - 11.9,20);
+    $pdf->Image('images/star.jpg',$x + 36,$pdf->GetY() - 11.9,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 14,$pdf->GetY() + 5);
     $pdf->Cell(40,1,"Windows, Linux",0, 'L'); 
@@ -80,7 +80,7 @@
     $pdf->Ln(.1);
 
     $pdf->ClippingRoundedRect($x + 36.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('star.jpg',$x + 36,$pdf->GetY() - 7.3,20);
+    $pdf->Image('images/star.jpg',$x + 36,$pdf->GetY() - 7.3,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 14,$pdf->GetY() + 5);
     $pdf->Cell(40,1,"Docker, Git",0, 'L'); 

@@ -1,0 +1,4 @@
+SSS SOFT;Sr.Software Engineer;Jul 2016;As of Today;sss-soft.com
+Cross World Group;Sr.Software Engineer;Jul 2011;Jul 2016;cross-world.com
+QSR Systemes;Sr.Programmer;Jan 2009;Jul 2011 ;qsrsystems.us
+BITM;Lecturer;Apr 2008;Sep 2008;bitm.biz

@@ -4,12 +4,12 @@
     // Primary Skills Section
     $x = 20;
     $pdf->Ln(15);
-    $pdf->SetFont('Arial','B',16);
+    $pdf->SetFont('Arial','B',14);
     $pdf->SetDrawColor(0, 51, 153);
     $pdf->SetLineWidth(.4);
     $pdf->ClippingText($x + 12,$pdf->GetY(),'Primary Skills',true);
     $pdf->UnsetClipping();
-    $pdf->Ln(3);  
+    $pdf->Ln(2);  
     $pdf->Line($pdf->GetX() + 15, $pdf->GetY(), 75, $pdf->GetY()); 
     
     $pdf->ClippingRoundedRect($x + 36.5,$pdf->GetY() + 3,19,4,2,false);

@@ -289,7 +289,7 @@ class PDF_Clipping extends FPDF
         $this->SetTextColor(0);
         $this->SetFont('Arial','',7); 
         // Data
-        $fill = false;
+        $fill = true;
         foreach($data as $row)
         {
             $this->SetXY($X,$this->GetY());

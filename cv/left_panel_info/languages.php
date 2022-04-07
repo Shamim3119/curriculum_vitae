@@ -2,8 +2,8 @@
 
     // Languages Skills Section
 
-    $pdf->Ln(15);
-    $pdf->SetFont('Arial','B',14);
+    $pdf->Ln(10);
+    $pdf->SetFont('Arial','B',13);
     $pdf->SetDrawColor(0, 51, 153);
     $pdf->SetLineWidth(.2);
     $pdf->ClippingText($x + 15,$pdf->GetY(),'Languages',true);

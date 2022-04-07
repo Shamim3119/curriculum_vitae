@@ -7,19 +7,19 @@
     $pdf->SetTextColor(0, 0, 0);
     $pdf->Cell(80,2,"Android application development:-",0,0,'L');
 
-    $pdf->Ln(5);  
+    $pdf->Ln(4);  
     $pdf->SetXY($x + 2,$pdf->GetY());
     $pdf->SetFont('Arial','B',9);
     $pdf->SetTextColor(0, 0, 0);
     $pdf->Cell(80,2,"Development Tools:",0,0,'L');
 
-    $pdf->Ln(5);  
+    $pdf->Ln(4);  
     $pdf->SetXY($x + 4,$pdf->GetY());
     $pdf->SetFont('Arial','B',8);
     $pdf->SetTextColor(0, 51, 153);
     $pdf->Cell(80,2,"Android Studio with Java.",0,0,'L');
 
-    $pdf->Ln(5);  
+    $pdf->Ln(4);  
     $pdf->SetXY($x + 6,$pdf->GetY());
     $pdf->SetFont('Arial','',8);
     $pdf->SetTextColor(0, 0, 0);

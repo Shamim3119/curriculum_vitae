@@ -2,8 +2,8 @@
 
     // Secondary Skills Section
 
-    $pdf->Ln(15);
-    $pdf->SetFont('Arial','B',14);
+    $pdf->Ln(10);
+    $pdf->SetFont('Arial','B',13);
     $pdf->SetDrawColor(0, 51, 153);
     $pdf->SetLineWidth(.3);
     $pdf->ClippingText($x + 7,$pdf->GetY(),'Secondary Skills',true);

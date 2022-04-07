@@ -3,8 +3,8 @@
 
     // Primary Skills Section
     $x = 20;
-    $pdf->Ln(15);
-    $pdf->SetFont('Arial','B',14);
+    $pdf->Ln(8);
+    $pdf->SetFont('Arial','B',13);
     $pdf->SetDrawColor(0, 51, 153);
     $pdf->SetLineWidth(.4);
     $pdf->ClippingText($x + 12,$pdf->GetY(),'Primary Skills',true);

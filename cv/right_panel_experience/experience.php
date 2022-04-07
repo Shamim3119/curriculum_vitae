@@ -1,8 +1,7 @@
 <?php
 
     $pdf->SetXY($x,$y);
-    $pdf->Ln(2);  
-    $pdf->SetFont('Arial','B',14);
+    $pdf->SetFont('Arial','B',13);
     $pdf->SetDrawColor(0, 51, 153);
     $pdf->SetLineWidth(.5);
     $pdf->ClippingText($x + 40,$pdf->GetY(),'Experience',true);

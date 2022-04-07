@@ -1,8 +1,9 @@
 <?php
 
     $x = 35;
-    $y = 25;
-    $pdf->ClippingRoundedRect(20,$y - 5,60,250,5,true);
+    $y = 32;
+    $pdf->SetDrawColor(0, 51, 153);
+    $pdf->ClippingRoundedRect(20,$y - 5,60,219,5,true);
     $pdf->UnsetClipping();
 
     require("individual.php");

@@ -17,7 +17,7 @@
     $pdf->SetXY($x + 4,$pdf->GetY());
     $pdf->SetFont('Arial','B',8);
     $pdf->SetTextColor(0, 51, 153);
-    $pdf->Cell(80,2,"C#.Net,,VB.Net,Ms SQL,MySql,Crystal Reports.",0,0,'L');
+    $pdf->Cell(80,2,"C#.Net,VB.Net,Ms SQL,MySql,Crystal Reports.",0,0,'L');
 
     $pdf->Ln(4);  
     $pdf->SetXY($x + 6,$pdf->GetY());

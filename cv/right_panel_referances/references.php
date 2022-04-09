@@ -38,17 +38,17 @@ $pdf->SetXY($pdf->GetX() - 5, $pdf->GetY());
 $pdf->Cell(40,1,"Email: anam741@hotmail.com",0, 'L'); 
 
 
-
+ 
 $pdf->SetXY($x + 60,$y + 5);  
 $pdf->SetFont('Arial','B',9);
 $pdf->SetXY($pdf->GetX() - 5, $pdf->GetY());
-$pdf->Cell(40,1,"Ahmed Zakaria",0, 'L'); 
+$pdf->Cell(40,1,"Ahmed Zakaria Amin",0, 'L'); 
 
 $pdf->Ln(3);
 $pdf->SetXY($x + 60,$pdf->GetY());  
 $pdf->SetFont('Arial','',8);
 $pdf->SetXY($pdf->GetX() - 5, $pdf->GetY());
-$pdf->Cell(40,1,"HR of Cefalo",0, 'L'); 
+$pdf->Cell(40,1,"Head of HR, Cefalo Bangladesh",0, 'L'); 
 
 $pdf->Ln(3);
 $pdf->SetXY($x + 60,$pdf->GetY());  

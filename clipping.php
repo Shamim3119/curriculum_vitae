@@ -271,7 +271,7 @@ class PDF_Clipping extends FPDF
     }
 
     // Colored table
-    function FancyTable($header, $data, $w, $al, $X)
+    function FancyTable($header, $data, $w, $al, $X, $link=false, $indx=-1)
     {
         // Colors, line width and bold font
         $this->SetFillColor(0, 51, 153);
@@ -286,8 +286,8 @@ class PDF_Clipping extends FPDF
         $this->Ln();
         // Color and font restoration
         $this->SetFillColor(224,235,255);
-        $this->SetTextColor(0);
-        $this->SetFont('Arial','',7); 
+
+
         // Data
         $fill = true;
         foreach($data as $row)
@@ -295,7 +295,17 @@ class PDF_Clipping extends FPDF
             $this->SetXY($X,$this->GetY());
             for($i=0;$i<count($header);$i++)
             {
-                $this->Cell($w[$i],6,$row[$i],'LR',0,$al[$i],$fill);
+                if($link == true && $indx == $i){
+                    $this->SetFont('Arial','U',7); 
+                    $this->SetTextColor(0,0,255);
+                    $this->Cell($w[$i],6,$row[$i],'LR',0,$al[$i],$fill, "http://".$row[$i]);
+                }
+                else{
+                    $this->SetTextColor(0);
+                    $this->SetFont('Arial','',7); 
+                    $this->Cell($w[$i],6,$row[$i],'LR',0,$al[$i],$fill);
+                }
+
             }
             $this->Ln();
             $fill = !$fill;

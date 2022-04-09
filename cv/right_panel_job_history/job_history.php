@@ -20,7 +20,7 @@
     $header = array('Company', 'Designation', 'From', 'To', 'Web');
  
     $data = $pdf->LoadData('files/job_history.txt');
-    $pdf->FancyTable($header,$data, $w, $al, $x + 2);
+    $pdf->FancyTable($header,$data, $w, $al, $x + 2, true, 4);
 
  
 

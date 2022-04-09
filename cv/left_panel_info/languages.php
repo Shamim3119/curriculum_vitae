@@ -14,7 +14,7 @@
 
 
     $pdf->ClippingRoundedRect($x + 39.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('images/star.jpg',$x + 39,$pdf->GetY() - 11.9,20);
+    $pdf->Image('images/star.jpg',$x + 39,$pdf->GetY() - 16.6,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 11,$pdf->GetY() + 5);
     $pdf->SetFont('Arial','B',8);
@@ -24,7 +24,7 @@
     $pdf->Ln(.1);
 
     $pdf->ClippingRoundedRect($x + 39.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('images/star.jpg',$x + 39,$pdf->GetY() - 7.3,20);
+    $pdf->Image('images/star.jpg',$x + 39,$pdf->GetY() - 11.9,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 11,$pdf->GetY() + 5);
     $pdf->SetFont('Arial','B',8);
@@ -34,7 +34,7 @@
     $pdf->Ln(.1);
 
     $pdf->ClippingRoundedRect($x + 39.5,$pdf->GetY() + 3,19,4,2,false);
-    $pdf->Image('images/star.jpg',$x + 39,$pdf->GetY() - 2.5,20);
+    $pdf->Image('images/star.jpg',$x + 39,$pdf->GetY() - 7.5,20);
     $pdf->UnsetClipping();
     $pdf->SetXY($pdf->GetX() + 11,$pdf->GetY() + 5);
     $pdf->SetFont('Arial','B',8);
